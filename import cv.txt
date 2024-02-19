@@ -1,0 +1,5 @@
+import cv
+import matplotlib.pyplot as plt
+
+img = cv2.imread(r"C:\Users\كيرلس محسن\Downloads\WhatsApp Image 2024-02-18 at 9.45.48 AM.jpeg")
+plt.imshow(img)
