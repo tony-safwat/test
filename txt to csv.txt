@@ -1,0 +1,3 @@
+import pandas as pd
+df = pd.read_csv(r"C:\Users\J0223071\Desktop\mohamed\1.txt")
+df.to_csv(r"C:\Users\J0223071\Desktop\mohamed\1.csv", index = None)
