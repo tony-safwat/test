@@ -1,0 +1,26 @@
+كود  الفيديو
+
+ده الكود اللي بيقرا الفيديو 
+
+import cv2
+v=cv2.VideoCapture(r"path file")
+ret, frame = v.read()
+fr=cv2.resize(frame,(720,480))
+cv2.imshow('Name window',fr)
+
+
+
+
+
+
+
+
+ده الكود الي بنغير فيه مسار الفيديو
+
+
+Import subprocess
+Subprocess.call([“ffmpeg”,”-i”, r” C:\Users\Abdo Schofield\Desktop\EX.mp4”, r” C:\Users\Abdo Schofield\Desktop\EX.AVI”])
+	
+
+
+
