@@ -1,0 +1,20 @@
+كود الصوت
+
+import librosa
+import librosa.display
+from IPython.display import Audio
+path = ('/content/typical-trap-loop-140bpm-129880.mp3')
+Audio(path)
+
+
+
+عرض الموجات الصوتيه
+
+audio_array ,sample_rate = librosa.load(path)
+print(audio_array[0],audio_array.shape)
+
+librosa.display.waveshow(audio_array,sr=sample_rate)
+
+
+
+
